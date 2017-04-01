@@ -18,7 +18,7 @@ class Timed(object):
         # 连接到数据库
         self.conn = db.connect()
         self.cur = self.conn.cursor()
-        self.last_crawl_title = '久其软件(002279)—中位数177%增长的一季报开创10年Q1盈利先河!' # 上一次爬取的第一篇文章标题
+        self.last_crawl_title = '久其软件(002279)—中位数177%增长的一季报开创10年Q1盈利先河!' # 上一次爬取的第一篇文章标题,这里可以从数据库里读取这一篇文章，而不是直接指定
         self.now_crawl_title = None
         self.public_num_name = public_num_name
 
