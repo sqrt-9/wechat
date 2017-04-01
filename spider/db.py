@@ -1,3 +1,4 @@
+# -*- coding:utf8 -*-
 import MySQLdb
 
 #数据库连接
